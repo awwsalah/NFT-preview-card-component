@@ -86,6 +86,7 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    color: var(--soft-blue);
 }
 
 .user{
