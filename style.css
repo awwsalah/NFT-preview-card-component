@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --very-dark-blue: #0D192C;
+    --dark-blue: #15263F;
+    --line-color: #2E405A;
+    --soft-blue: #8BACD9;
+    --cyan-color: #00FFF8;
+
+}
+html{
+    max-width: 1440px;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-dark-blue);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 596px;
+    justify-content: space-between;
+    background-color: var(--dark-blue);
+    padding: 30px;
+
+}
+.card-img {
+    background-image: url(assets/main\ image.png);
+    background-size: 302px 302px;
+    align-items: center;
+    width: 302px;
+    height: 302px;
+}
+
+
+.card-img:hover{
+    background-image: url(assets/main\ image-2.png);
+    background-size: 302px 302px;
+    align-items: center;
+    width: 302px;
+    height: 302px;
+    cursor: pointer;
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid var(--line-color);
+}
+.tag1{
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: var(--cyan-color);
+}
+.tag1 img{
+    width: 12px;
+    height: 18px;
+}
+.tag2{
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+}
+.user-title{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.user-title h3{
+    color: var(--soft-blue);
+    font-weight: 400;
+    font-size: 16px;
+}
+.user-title span{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+.user-title span:hover{
+    color:var(--cyan-color);
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+}
+h1:hover{
+    color: var(--cyan-color);
+    cursor: pointer;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--soft-blue);
+}
